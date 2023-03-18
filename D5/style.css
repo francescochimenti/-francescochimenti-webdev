@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, skyblue, rgb(235, 215, 100));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main {
+  width: 100%;
+}
+
+.topbar {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  height: 100%;
+}
+
+.icon {
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+  cursor: pointer;
+}
+
+.icon ion-icon {
+  font-size: 2em;
+}
+
+.icon p {
+  margin: 0;
+}
+
+.icon:not(:first-of-type) {
+  height: 16vh;
+}
+
+.logo {
+  height: 50%;
+  cursor: pointer;
+}
+
+.search-wrapper {
+  display: flex;
+  height: 50%;
+  width: 30%;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 0 1em;
+}
+
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.top-icon {
+  font-size: 2em;
+  padding: 0 0.5em;
+}
+
+.mic-icon {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  padding: 0 0.7em;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+}
+
+.dadthumb {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between flex-start;
+    margin: 1em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+#thumbnail {
+    width: 510px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: lightgoldenrodyellow;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+#epicode-logo {
+    height: 40px;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+
+.title-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+    font-size: 1em;
+    margin: 0 0.5em;
+}
+#description {
+    font-size: 0.8em;
+    margin: 0 0.5em;
+}
+
+#epicode-logo2 {
+  height: 40px;
+  cursor: pointer;
+  border-style: solid;
+    border-width: 2px;
+    border-color: lightgoldenrodyellow;
+    border-radius: 50px;
+    padding: 0px;
+  
+}
